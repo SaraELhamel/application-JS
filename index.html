@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Manipulation des formulaires</title>
+</head>
+    <body>
+        <center>
+            <div class="form-style-3">
+                <form>
+                <fieldset><legend>Personal</legend>
+                <label for="field1"><span>Name <span class="required">*</span></span><input id="name" type="text" class="input-field" name="field1" value="" /></label>
+                <label for="field2"><span>prénom <span class="required">*</span></span><input id="lastName" type="email" class="input-field" name="field2" value="" /></label>
+                <label for="field3"><span>D.naissance <span class="required">*</span></span><input id="birthday" type="text" class="input-field" name="field3" value="" /></label>
+                <label for="field3"><span>L.naissance<span class="required">*</span></span><input id="birthplace" type="text" class="input-field" name="field3" value="" /></label>
+                <label for="field3"><span>Tel<span class="required">*</span></span><input id="phone" type="text" class="input-field" name="field3" value="" /></label>
+                <label for="field3"><span>Adress<span class="required">*</span></span><input id="adress" type="text" class="input-field" name="field3" value="" /></label>
+                <label><span> </span><input onclick="addRow()" type="submit" value="Submit" /></label>
+                </fieldset>
+             
+                </form>
+                </div>
+        </center>
+        
+        <table id="table"  >
+            
+        </table>
+        <table id="customers">
+            <tr>
+              <th>Nom</th>
+              <th>Prénom</th>
+              <th>Date de naissance</th>
+              <th>Lieu de naissance</th>
+              <th>Numéro de téléphone</th>
+              <th>Addresse</th>
+            </tr>
+            <tr>
+              <td ></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+        <script src="file.js"></script>
+    </body>
+</html>  
